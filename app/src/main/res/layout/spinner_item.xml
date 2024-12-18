@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/spinnerPadding">
+
+    <ImageView
+        android:id="@+id/itemIcon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_ok"
+        app:srcCompat="@drawable/ic_ok"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/itemText"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/spinnerPadding"
+        android:layout_weight="1"
+        android:textColor="@color/spinnerText"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:text="Item" />
+
+    <ImageView
+        android:id="@+id/itemArrow"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_arrow"
+        app:srcCompat="@drawable/ic_arrow"
+        tools:ignore="ContentDescription" />
+</LinearLayout>

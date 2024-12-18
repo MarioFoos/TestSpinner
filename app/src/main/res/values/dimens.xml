@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="fontSpinner">16dp</dimen>
+    <dimen name="spinnerCorner">6dp</dimen>
+    <dimen name="dialogPadding">16dp</dimen>
+    <dimen name="spinnerStroke">2dp</dimen>
+    <dimen name="spinnerPadding">4dp</dimen>
+
+</resources>
