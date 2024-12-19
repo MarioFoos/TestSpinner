@@ -1,6 +1,7 @@
 package com.mlf.testspinner;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 
 import android.os.Bundle;
 import android.widget.Spinner;
@@ -19,6 +20,7 @@ public class MainActivity extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
 
         spinner = findViewById(R.id.spinner);
         adapter = new CustomAdapter(this, getSpinnerItems());
